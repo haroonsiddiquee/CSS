@@ -1,46 +1,25 @@
-.clr{
-    color: yellowgreen;
+.box-1{
+    color: aqua;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: red;
 }
 
-.clr-hex{
-    color: #e3392d;
+.box-2{
+    color: aqua;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: red;
+    box-sizing: border-box;
 }
 
-.clr-rgb{
-    color: rgb(62, 67, 232);
-}
-
-.clr-rgba{
-    color: rgba(255, 99, 71, 0.6);
-}
-
-.bg-color{
-    background-color: aquamarine;
-}
-
-.bg-image{
-    color: #e3392d;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtz2QVCou_hgn1M9vERipHVWKZi8RqNFpygjO7Ij7W3eXLKt5pArxTKz8&s=10);
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.bg-repeat{
-    color: azure;
-    padding: 100px;
-    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/024/993/806/small/superhero-shoot-spider-web-through-the-cityscape-background-free-vector.jpg);
-    background-repeat: no-repeat;
-}
-
-.bg-size{
-    color: white;
-    padding: 100px;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9KzUDNALHPfsbHQjxlpXKy009PyyjIzhNBMY_IMrOjY5jLIIggl3dEoIj&s=10);
-    background-repeat: repeat;
-    background-size:contain;
-}
-
-.bg-linear-gradient{
-    padding: 100px;
-    background-image: linear-gradient(to right, yellowgreen, green);
+.box-3{
+    color: aqua;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: yellowgreen;
+    margin: 40px;
 }
