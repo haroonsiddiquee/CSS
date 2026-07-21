@@ -1,28 +1,18 @@
 <!doctype html>
 <html>
   <head>
+    <link rel="stylesheet" href="style.css" />
     <style>
-      /* Write your CSS here */
-      p {
-        color: blue;
-      }
-      .warning {
-        color: red;
-        font-weight: bold;
-      }
-      #header {
-        background-color: black;
-        color: white;
-      }
-      [type="text"] {
-        border: 1px solid green;
+      h1 {
+        color: green;
       }
     </style>
   </head>
   <body>
-    <p>This is a paragraph.</p>
-    <p class="warning">This is a warning paragraph.</p>
-    <div id="header">This is the header div.</div>
-    <input type="text" placeholder="Type something" />
+    <h1>This is a heading</h1>
+    <p>This paragraph is styled externally.</p>
+    <p style="color: brown">
+      This paragraph is styled inline — it overrides external CSS.
+    </p>
   </body>
 </html>
