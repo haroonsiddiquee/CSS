@@ -1,9 +1,28 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <style>
+      /* Write your CSS here */
+      p {
+        color: blue;
+      }
+      .warning {
+        color: red;
+        font-weight: bold;
+      }
+      #header {
+        background-color: black;
+        color: white;
+      }
+      [type="text"] {
+        border: 1px solid green;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <p>This is a paragraph.</p>
+    <p class="warning">This is a warning paragraph.</p>
+    <div id="header">This is the header div.</div>
+    <input type="text" placeholder="Type something" />
+  </body>
 </html>
