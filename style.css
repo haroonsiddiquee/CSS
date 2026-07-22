@@ -1,17 +1,39 @@
-.title{
-    font-family: Verdana, Helvetica, Tahoma, sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
+.box-px{
+    width: 300px;
+    background-color: yellowgreen;
+    margin: 10px;
 }
 
-.para-1{
-    font-size: 18px;
-    line-height: 1.6;
-    letter-spacing: 1px;
+.container{
+    width: 600px;
+    background-color: brown;
 }
 
-.para-2{
-    text-align: center;
-    text-decoration: underline;
-    font-style: italic;
+.box-percent{
+    width: 50%;
+    background-color: aqua;
+    margin: 10px;
+}
+
+.box-rem{
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: blue;
+    margin: 10px;
+}
+
+.box-vh-vw{
+    height: 30vh;
+    width: 50vw;
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+.box-em-parent{
+    font-size: 1.5em;
+    background-color: orangered;
+}
+
+.box-em-child{
+    font-size: 1.5em;
 }
