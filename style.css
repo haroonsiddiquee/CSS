@@ -1,31 +1,27 @@
-.flex-row{
-    display:flex;
-    justify-content:space-between;
-    background-color: aqua;
-}
-
-.box{
-    width: 80px;
-    height: 80px;
-    background-color: blueviolet;
-}
-
-.flex-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    background-color: bisque;
-}
-
-.box-single{
-    background-color: brown;
-    padding: 20px;
-}
-
-.flex-column{
-    display: flex;
-    flex-direction: column;
+.grid-basic{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
     gap: 10px;
-    align-items: center;
+}
+
+.cell{
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-galleria{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    gap: 10px;
+}
+
+.cells{
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.featured{
+    grid-column: span 2;
 }
